@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/angular-awesome-recipes.iml" filepath="$PROJECT_DIR$/angular-awesome-recipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/angular-vite-starter/angular-vite-starter.iml" filepath="$PROJECT_DIR$/angular-vite-starter/angular-vite-starter.iml" />
     </modules>
   </component>
 </project>
