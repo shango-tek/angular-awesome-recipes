@@ -1,6 +1,32 @@
-# AngularViteStarter
+# Angular Vite Starter
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.5.
+This is a starter for Angular with Vite. It uses the [@analogjs/vite-plugin-angular](https://github.com/analogjs/analog/tree/main/packages/vite-plugin-angular) to provide Angular support in Vite.
+
+## Installation
+
+To use this starter, ensure you have the plugin installed:
+
+```bash
+npm install @analogjs/vite-plugin-angular --save-dev
+```
+
+## Configuration
+
+Add the plugin to the `plugins` array in your `vite.config.ts`. The angular plugin should be listed **first** in the plugins array.
+
+```typescript
+import { defineConfig } from 'vite';
+import angular from '@analogjs/vite-plugin-angular';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  resolve: {
+    mainFields: ['module'],
+  },
+
+  plugins: [angular()],
+});
+```
 
 ## Development server
 
